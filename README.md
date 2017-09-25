@@ -4,6 +4,13 @@
 
 The dataset of KCNA's Japanese articles. You can download this on [Google Drive](https://drive.google.com/drive/folders/0B7AO2iTYHQtoc2cySnhubUZ5NGM?usp=sharing).
 
+# ファイルの説明
+
+kcna.tar.bz2, kcna.zip: 記事のデータ(JSON) 共に内容は同じです
+kcna-content.zip: 記事の内容(1行目がタイトル、2行目以降が本文)
+
+解凍すると、約20000のファイルが格納されたディレクトリができます。ファイル名は記事のIDを表します。
+
 # 動かし方
 
 まず、Bundlerを使い依存しているgemをダウンロードします。
