@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/hinamiyagk/kcna.rb
-  revision: 8e8a3e07d6cb96747805573a465fe9572f75385c
+  revision: 30be47a54e8eba0bf6f131ee6b1034881b7b55cf
   specs:
-    kcna (0.2.0)
+    kcna (0.3.0)
       httpclient (~> 2.8)
       oga (~> 2.10)
 
@@ -12,7 +12,7 @@ GEM
     ansi (1.5.0)
     ast (2.3.0)
     httpclient (2.8.3)
-    oga (2.10)
+    oga (2.11)
       ast
       ruby-ll (~> 2.1)
     ruby-ll (2.1.2)
@@ -26,4 +26,4 @@ DEPENDENCIES
   kcna!
 
 BUNDLED WITH
-   1.15.1
+   1.15.4
