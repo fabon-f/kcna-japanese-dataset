@@ -6,10 +6,12 @@ The dataset of KCNA's Japanese articles. You can download this on [Google Drive]
 
 # ファイルの説明
 
-* kcna.tar.bz2, kcna.zip: 記事のデータ(JSON) 共に内容は同じです
-* kcna-content.zip: 記事の内容(1行目がタイトル、2行目以降が本文)
+* `kcna.tar.gz`: メタデータを含む記事のデータ(JSON)
+* `kcna-content.tar.gz`: 記事の内容のテキストファイル(1行目が半角スペース区切りでIDと日付、2行目が題名、存在すれば続けて3行目に副題、1行空けて本文)
+* `kcna-content-readable.tar.gz`: `kcna-content.tar.gz`を時系列順に100記事ずつ結合してファイル数を減らしたもの
 
-解凍すると、約20000のファイルが格納されたディレクトリができます。ファイル名は記事のIDを表します。
+`kcna.tar.gz`や`kcna-content.tar.gz`は解凍すると約28000のファイルが格納されたディレクトリができます。ファイル名は記事のIDを表します。
+`kcna-content-readable.tar.gz`は解凍すると281のファイルが格納されたディレクトリができます。
 
 # 動かし方
 
